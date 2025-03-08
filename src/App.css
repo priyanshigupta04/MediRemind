@@ -1,4 +1,3 @@
-/* Base styles */
 :root {
   --primary-color: #4a6fa5;
   --primary-dark: #3a5a8c;
@@ -27,14 +26,12 @@ body {
   background-color: #f9f9f9;
 }
 
-/* App Container */
 .app-container {
   max-width: 1200px;
   margin: 0 auto;
   padding: 20px;
 }
 
-/* Header */
 .app-header {
   display: flex;
   flex-direction: column;
@@ -62,7 +59,6 @@ body {
   margin-top: 5px;
 }
 
-/* Main Content */
 .main-content {
   background-color: white;
   border-radius: var(--border-radius);
@@ -179,7 +175,7 @@ textarea {
   gap: 20px;
 }
 
-/* Medicine Card */
+
 .medicine-card {
   background-color: white;
   border-radius: var(--border-radius);
@@ -291,7 +287,6 @@ textarea {
   font-size: 1.2rem;
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
   .form-row {
     flex-direction: column;
