@@ -1,4 +1,3 @@
-"use client"
 import { Clock, Calendar, Edit, Trash2, Check } from "lucide-react"
 import { formatDistanceToNow } from "date-fns"
 
